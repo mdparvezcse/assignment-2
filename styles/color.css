@@ -147,6 +147,46 @@
     font-weight: 600px;
 }
 
+/* Lover and flower section */
+
+.lover{
+    max-width: 1440px;
+    margin: 0px auto;
+    margin-top: 210px;
+    margin-bottom: 133px;
+}
+.lover-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    border: none;
+    position: relative;
+}
+
+.lover-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.lover-des{
+    padding-left: 30px;
+}
+.lover-des li{
+    padding-bottom: 20px;
+}
+
+.lover-image img{
+    height: 100%;
+}
+
+.badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    transform: translate(500px, -730px);
+}
 
 
 /* media */
@@ -198,5 +238,19 @@
     }
     .btn{
         padding: 10px 40px;
+    }
+    .lover-container{
+        margin-left: 16px;
+        margin-right: 16px;
+        flex-direction: column;
+    }
+    .badge{
+        display: none;
+    }
+    .lover-img{
+        width: 100%;
+    }
+    .lover{
+        margin-top: 41px;
     }
 }
