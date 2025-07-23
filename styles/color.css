@@ -17,3 +17,108 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* set margin */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* individual color */
+/* share style */
+.display-flex{
+    display: flex;
+}
+.dark-color{
+    color: #000000;
+}
+.orange-color{
+    color: #E95A08;
+}
+.des{
+    font: inter-font;
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* nav bar */
+.header{
+    max-width: 1440px;
+    margin: 0px auto;
+
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.Link-item{
+    list-style: none;
+}
+.Link{
+    text-decoration: none;
+    margin-left: 48px;
+}
+.home-color{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #252432;
+}
+.nav-color{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8987A1;
+}
+.cart{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+}
+/* banner section styles */
+.banner{
+    margin-top: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: none;
+    height: 461px;
+    justify-content: space-between;
+    align-items: end;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+/* media */
+@media screen and (max-width: 576px){
+    .navbar{
+        margin-top: 13px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    #nav-home,#nav-about,#nav-shop{
+        display: none;
+    }
+    .banner{
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .banner-content{
+        width: 90%;
+        margin: 0px 16px;
+    }
+    .banner-title{
+        font-size: 3rem;
+        padding-top: 30px;
+        padding-bottom: 13px;
+    }
+    .banner-des{
+        font-size: 1rem;
+    }
+    .banner-img{
+        width: 100%;
+    }
+}
