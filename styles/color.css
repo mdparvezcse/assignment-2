@@ -90,6 +90,65 @@
     font-weight: bold;
     margin-bottom: 13px;
 }
+/* plant section style */
+.plant{
+    max-width: 1440px;
+    margin: 0px auto;
+    margin-top: 120px;
+}
+.plant-content{
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+}
+.plant-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+/* .plant-des{
+    max-width: 888px;
+} */
+.card-container{
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.card{
+    border: none;
+    height: 484px;
+    text-align: center;
+}
+.card-title{
+    font-size: 1.375rem;
+    font-weight: 500px;
+    color: #111111;
+    margin-top: 20px;
+}
+   
+.card-number{
+    font-size: 1.375rem;
+    font-weight: bold;
+    color: #111111;
+    margin-top: 8px;
+} 
+.btn{
+    padding: 19px 80px;
+    border: none;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    margin-top: 17px;
+    font-size: 1rem;
+    font-weight: 600px;
+}
+
+
+
 /* media */
 @media screen and (max-width: 576px){
     .navbar{
@@ -120,5 +179,24 @@
     }
     .banner-img{
         width: 100%;
+    }
+    .plant{
+        margin-top: 65px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+    .card{
+        height: 100%;
+    }
+    .card-image{
+        width: 100%;
+        /* height: 100%; */
+    }
+    .btn{
+        padding: 10px 40px;
     }
 }
