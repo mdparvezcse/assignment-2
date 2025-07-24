@@ -189,8 +189,13 @@
 .badge{
     width: 286px;
     height: 286px;
+    /* width: 100px;
+    height: 100px; */
     position: absolute;
     transform: translate(500px, -730px);
+    filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.5));
+    /* box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25); */
+    border-radius: 100%;
 }
 /* join section */
 .join{
