@@ -197,6 +197,121 @@
     /* box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25); */
     border-radius: 100%;
 }
+/* deal section */
+.deal{
+    max-width: 1440px;
+    margin: 0px auto;
+    margin-bottom: 120px;
+}
+.deal-content{
+    text-align: center;
+    width: 888px;
+    margin: 0px auto;
+    margin-bottom: 120px;
+}
+.deal-content-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.deal-container{
+    height: 424px;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 28px;
+}
+.deal-container > div{
+    flex: 1fr;
+}
+.deal-container img{
+    width: 100%;
+    height: 100%;
+}
+.left-deal{
+    width: 35%;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.left-up{
+    background-image: url(../assets/deal-ana.png);
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 14px;
+}
+.left-down{
+    background-image: url(../assets/deal-bloom.png);
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 14px;
+
+}
+.right-deal{
+    width: 65%;
+    background-image: url(../assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 24px;
+}
+.left-up-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.left-up-title2{
+    font-size: 1rem;
+    font-weight: 600px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+/* latest section background opacity */
+
+.right-deal-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4));
+    height: 424px;    
+    border-top: 1px solid transparent;
+    border-radius: 24px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.left-up-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4));
+    height: 200px;    
+    border-top: 1px solid transparent;
+    border-radius: 16px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.left-down-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4));
+    height: 200px;    
+    border-top: 1px solid transparent;
+    border-radius: 16px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.right-deal-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.right-deal-title2{
+    font-size: 1.75rem;
+    font-weight: 600px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+
+
+
 /* join section */
 .join{
     max-width: 1440px;
@@ -294,6 +409,7 @@
 
 /* media */
 @media screen and (max-width: 576px){
+    /* responsive header section */
     .navbar{
         margin-top: 13px;
         margin-left: 16px;
@@ -320,14 +436,16 @@
         padding-top: 30px;
         padding-bottom: 13px;
     }
-    .banner-des{
-        font-size: 1rem;
-    }
     .banner-img{
         width: 100%;
     }
+    /* responsive plant section */
     .plant{
         margin-top: 65px;
+    }
+    .plant-content{
+        margin-left: 16px;
+        margin-right: 16px;
     }
     .card-container{
         display: grid;
@@ -353,6 +471,7 @@
     .badge{
         display: none;
     }
+    /* footer section responsive */
     .lover-img{
         width: 100%;
     }
@@ -363,9 +482,13 @@
         flex-direction: column;
         margin-left: 20px;
         margin-right: 14px;
-        margin-top: 50px;
+        margin-top: 0px;
         margin-bottom: 50px;
     }
+    .footer-content{
+        margin-top: 20px;
+    }
+    /* join section responsive */
     .join-content input[type="email"]{
         padding: 0px;
         padding-left: 20px;
@@ -382,6 +505,42 @@
     .join-title{
         font-size: 2rem;
     }
+
+    /* latest deal section responsive */
+    
+     .deal{
+        margin-bottom: 270px;
+     }
+     .deal-content{
+        width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-bottom: 50px;
+     }
+    .deal-container{
+        flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .left-deal{
+        width: 100%;
+    }
+    .right-deal{
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+    }
+    .right-deal-bg{
+        height: 200px;
+        border-radius: 16px;
+    }
+    .right-deal-title{
+        font-size: 1.25rem;
+    }
+    .right-deal-title2{
+        font-size: 1rem;
+    }
+
 }
 /* gradient bg */
 /* .grad-bg{
