@@ -156,20 +156,18 @@ body {
     height: 100%;
     border: none;
     text-align: center;
-    /* font-size: 1.5rem;
-    font-weight: 200px; */
 }
 
 .card-title{
     font-size: 1.375rem;
-    font-weight: 500px;
+    font-weight: 500;
     color: #111111;
     padding-top: 20px;
 }
 
 .card-number {
     font-size: 1.375rem;
-    font-weight: 600px;
+    font-weight: bold;
     color: #111111;
     margin-top: 8px;
 }
@@ -181,13 +179,12 @@ body {
     color: #FFFFFF;
     margin-top: 17px;
     font-size: 1rem;
-    font-weight: 600px;
+    font-weight: 600;
 
 }
 
 .card-image {
     width: 100%;
-    /* height: 100%; */
 }
 
 /* Lover and flower section */
@@ -230,12 +227,9 @@ body {
 .badge {
     width: 286px;
     height: 286px;
-    /* width: 100px;
-    height: 100px; */
     position: absolute;
     transform: translate(500px, -730px);
     filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.5));
-    /* box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25); */
     border-radius: 100%;
 }
 
@@ -317,7 +311,7 @@ body {
 
 .left-up-title2 {
     font-size: 1rem;
-    font-weight: 600px;
+    font-weight: 600;
     color: #FFFFFF;
     text-decoration: underline;
 }
@@ -362,7 +356,7 @@ body {
 
 .right-deal-title2 {
     font-size: 1.75rem;
-    font-weight: 600px;
+    font-weight: 600;
     color: #FFFFFF;
     text-decoration: underline;
 }
@@ -481,6 +475,10 @@ body {
 /* media */
 @media screen and (max-width: 576px) {
 
+    /* des */
+    .des{
+        font-size: 1.25rem;
+    }
     /* responsive header section */
     .navbar {
         margin-top: 13px;
@@ -512,6 +510,7 @@ body {
 
     .banner-title {
         font-size: 2rem;
+        font-weight: bold;
         padding-top: 30px;
         padding-bottom: 13px;
     }
@@ -527,6 +526,7 @@ body {
     }
     .plant-title{
         font-size: 2rem;
+        font-weight: bold;
     }
     .plant-content {
         margin-left: 16px;
@@ -550,8 +550,16 @@ body {
 
     .btn {
         padding: 15px 37px;
+        font-weight: 600;
     }
-
+    .card-title{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .card-number{
+        font-size: 1rem;
+        font-weight: bold;
+    }
     /* lover section */
     .lover-container {
         margin-left: 16px;
@@ -573,6 +581,7 @@ body {
     }
     .lover-title{
         font-size: 2rem;
+        font-weight: bold;
     }
     .footer-container {
         flex-direction: column;
@@ -581,9 +590,14 @@ body {
         margin-top: 0px;
         margin-bottom: 50px;
     }
-
+    .feature-container{
+        padding-top: 20px;
+    }
     .footer-content {
         margin-top: 20px;
+    }
+    .footer-link{
+        padding-top: 0px;
     }
 
     /* join section responsive */
@@ -606,7 +620,7 @@ body {
 
     .join-title {
         font-size: 2rem;
-        font-weight: 600px;
+        font-weight: 600;
     }
 
     /* latest deal section responsive */
@@ -645,6 +659,7 @@ body {
 
     .right-deal-title {
         font-size: 1.25rem;
+        font-weight: bold;
     }
 
     .right-deal-title2 {
